@@ -1,5 +1,5 @@
 # Fizz buzz
-
+![GitHub Workflow Status](https://github.com/doc-kwyjibo/fizzbuzz/actions/workflows/build-master.yml/badge.svg)
 ## Introduction
 
 Fizz buzz is a division game where players count and replace numbers at certain multiples with other words. The traditional game replaces multiples of three by the word *fizz* and multiples of the five by the word *buzz*. Additionally, multiples of fifteen are replaced by the conjunction *fizzbuzz*.
