@@ -50,13 +50,6 @@ namespace FizzBuzz.Tests
             Assert.AreEqual(number.ToString(), result);
         }
 
-        [Test]
-        public void IntentionallyBreakingTest()
-        {
-            var result = Calculator.ComputeValue(1);
-            Assert.AreEqual("Fizz", result);
-        }
-
         public static readonly IEnumerable<int> MultiplesOfThreeAndNotFive = Enumerable.Range(1, 500)
                                                                             .Where(n => n % 3 == 0 && n % 5 > 0)
                                                                             .Take(50);
