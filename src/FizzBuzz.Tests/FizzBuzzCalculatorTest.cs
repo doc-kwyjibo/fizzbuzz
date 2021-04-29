@@ -52,7 +52,7 @@ namespace FizzBuzz.Tests
 
         public static readonly IEnumerable<int> MultiplesOfThreeAndNotFive = Enumerable.Range(1, 500)
                                                                             .Where(n => n % 3 == 0 && n % 5 > 0)
-                                                                            .Take(50);
+                                                                            .Take(50).Concat(new[]{1});
         public static readonly IEnumerable<int> MultiplesOfNotThreeAndFive = Enumerable.Range(1, 500)
                                                                             .Where(n => n % 3 > 0 && n % 5 > 0)
                                                                             .Take(50);
